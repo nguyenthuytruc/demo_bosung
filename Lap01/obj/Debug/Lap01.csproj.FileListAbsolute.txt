@@ -1,0 +1,10 @@
+C:\CongCu\Buoi4\demo_bosung\Lap01\bin\Debug\Lap01.exe.config
+C:\CongCu\Buoi4\demo_bosung\Lap01\bin\Debug\Lap01.exe
+C:\CongCu\Buoi4\demo_bosung\Lap01\bin\Debug\Lap01.pdb
+C:\CongCu\Buoi4\demo_bosung\Lap01\obj\Debug\Lap01.csproj.AssemblyReference.cache
+C:\CongCu\Buoi4\demo_bosung\Lap01\obj\Debug\Lap01.Form1.resources
+C:\CongCu\Buoi4\demo_bosung\Lap01\obj\Debug\Lap01.Properties.Resources.resources
+C:\CongCu\Buoi4\demo_bosung\Lap01\obj\Debug\Lap01.csproj.GenerateResource.cache
+C:\CongCu\Buoi4\demo_bosung\Lap01\obj\Debug\Lap01.csproj.CoreCompileInputs.cache
+C:\CongCu\Buoi4\demo_bosung\Lap01\obj\Debug\Lap01.exe
+C:\CongCu\Buoi4\demo_bosung\Lap01\obj\Debug\Lap01.pdb

@@ -12,17 +12,17 @@ namespace Lap01
 {
     public partial class Form1 : Form
     {
-        private TextBox textBox1;
+        private TextBox txtNum1;
         private Label label1;
         private Label label2;
         private Button btnCong;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private Button btnTru;
+        private Button btnNhan;
+        private Button btnChia;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox txtAnswer;
         private Label label4;
-        private TextBox textBox2;
+        private TextBox txtNum2;
 
         public Form1()
         {
@@ -31,32 +31,32 @@ namespace Lap01
 
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNum1 = new System.Windows.Forms.TextBox();
+            this.txtNum2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCong = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnTru = new System.Windows.Forms.Button();
+            this.btnNhan = new System.Windows.Forms.Button();
+            this.btnChia = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtAnswer = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtNum1
             // 
-            this.textBox1.Location = new System.Drawing.Point(191, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtNum1.Location = new System.Drawing.Point(191, 58);
+            this.txtNum1.Name = "txtNum1";
+            this.txtNum1.Size = new System.Drawing.Size(151, 20);
+            this.txtNum1.TabIndex = 0;
             // 
-            // textBox2
+            // txtNum2
             // 
-            this.textBox2.Location = new System.Drawing.Point(191, 121);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 20);
-            this.textBox2.TabIndex = 1;
+            this.txtNum2.Location = new System.Drawing.Point(191, 121);
+            this.txtNum2.Name = "txtNum2";
+            this.txtNum2.Size = new System.Drawing.Size(151, 20);
+            this.txtNum2.TabIndex = 1;
             // 
             // label1
             // 
@@ -87,36 +87,38 @@ namespace Lap01
             this.btnCong.TabIndex = 4;
             this.btnCong.Text = "+";
             this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
-            // button2
+            // btnTru
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(165, 192);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTru.Location = new System.Drawing.Point(165, 192);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(75, 23);
+            this.btnTru.TabIndex = 5;
+            this.btnTru.Text = "-";
+            this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
             // 
-            // button3
+            // btnNhan
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(278, 192);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "*";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhan.Location = new System.Drawing.Point(278, 192);
+            this.btnNhan.Name = "btnNhan";
+            this.btnNhan.Size = new System.Drawing.Size(75, 23);
+            this.btnNhan.TabIndex = 6;
+            this.btnNhan.Text = "*";
+            this.btnNhan.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnChia
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(394, 192);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnChia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChia.Location = new System.Drawing.Point(394, 192);
+            this.btnChia.Name = "btnChia";
+            this.btnChia.Size = new System.Drawing.Size(75, 23);
+            this.btnChia.TabIndex = 7;
+            this.btnChia.Text = "/";
+            this.btnChia.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -128,12 +130,12 @@ namespace Lap01
             this.label3.TabIndex = 8;
             this.label3.Text = "Kết quả";
             // 
-            // textBox3
+            // txtAnswer
             // 
-            this.textBox3.Location = new System.Drawing.Point(191, 260);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(151, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtAnswer.Location = new System.Drawing.Point(191, 260);
+            this.txtAnswer.Name = "txtAnswer";
+            this.txtAnswer.Size = new System.Drawing.Size(151, 20);
+            this.txtAnswer.TabIndex = 9;
             // 
             // label4
             // 
@@ -150,16 +152,16 @@ namespace Lap01
             // 
             this.ClientSize = new System.Drawing.Size(506, 405);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtAnswer);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnChia);
+            this.Controls.Add(this.btnNhan);
+            this.Controls.Add(this.btnTru);
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNum2);
+            this.Controls.Add(this.txtNum1);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -169,6 +171,61 @@ namespace Lap01
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+        }
+        private bool checkRong()
+        {
+            if (txtNum1.Text == "")
+            {
+                txtNum1.Focus();
+                MessageBox.Show("Vui Lòng Nhập Number1", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            if (txtNum2.Text == "")
+            {
+                txtNum2.Focus();
+                MessageBox.Show("Vui Lòng Nhập Number2", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
+        private bool checkPare()
+        {
+            float num1, num2;
+            bool result1 = float.TryParse(txtNum1.Text, out num1);
+            if (!result1)
+            {
+                MessageBox.Show("Bạn đã nhập Number1 sai kiểu dữ liệu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            bool result2 = float.TryParse(txtNum2.Text, out num2);
+            if (!result2)
+            {
+                MessageBox.Show("Bạn đã nhập Number2 sai kiểu dữ liệu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
+
+        private void btnCong_Click(object sender, EventArgs e)
+        {
+            if (checkRong() && checkPare())
+            {
+                float num1 = float.Parse(txtNum1.Text);
+                float num2 = float.Parse(txtNum2.Text);
+                txtAnswer.Text = (num1 + num2).ToString();
+            }
+
+        }
+
+        private void btnTru_Click(object sender, EventArgs e)
+        {
+            if (checkRong() && checkPare())
+            {
+                float num1 = float.Parse(txtNum1.Text);
+                float num2 = float.Parse(txtNum2.Text);
+                txtAnswer.Text = (num1 - num2).ToString();
+            }
 
         }
     }
